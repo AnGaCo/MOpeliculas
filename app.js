@@ -20,8 +20,7 @@ const cargarPeliculas = async() => {
 	try {
 		const respuesta = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=8fe5ae126ef0ccbb7c123808c8c67d24&language=es-MX&page=${pagina}`);
 		//delchavon`https://api.themoviedb.org/3/movie/popular?api_key=192e0b9821564f26f52949758ea3c473&language=es-MX&page=${pagina}`
-		//`https://api.themoviedb.org/3/movie/popular?api_key=8fe5ae126ef0ccbb7c123808c8c67d24&language=es-MX&page=${pagina}`
-		//`https://api.themoviedb.org/3/movie/550?api_key=8fe5ae126ef0ccbb7c123808c8c67d24&language=es-MX&page=${pagina}`
+		
 		console.log(respuesta);
 
 		// Si la respuesta es correcta
